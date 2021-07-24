@@ -1,8 +1,8 @@
-"""add new column un User
+"""new fields in user model
 
-Revision ID: 1786bd279a8d
-Revises: 65491098ea09
-Create Date: 2021-07-23 21:58:37.598993
+Revision ID: 37f06a334dbf
+Revises: 780739b227a7
+Create Date: 2017-09-14 10:54:13.865401
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '1786bd279a8d'
-down_revision = '65491098ea09'
+revision = '37f06a334dbf'
+down_revision = '780739b227a7'
 branch_labels = None
 depends_on = None
 
